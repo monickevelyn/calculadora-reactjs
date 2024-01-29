@@ -1,6 +1,5 @@
 import './botoes.css'
 import './calculadora.css'
-import './Responsivo.css'
 import { useState } from "react"
 
 export default function CalculadoraApp(){
