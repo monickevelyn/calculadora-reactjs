@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=DM+Sans:opsz,wght@9..40,300&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope&family=Montserrat:wght@300&family=Nunito:wght@600&family=Open+Sans:wght@700&family=Poppins:wght@300&family=Quicksand&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    width: 100vw;
+    height: 100vh;
+    max-width: 1520px;
+    min-width: 340px;
+    background-color: #2d2b2b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,38 @@
+.sec-btn{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 10px;
+    width: 20vw;
+    height: 70vh;
+    border-radius: 30px;
+    background-color: #2f2e2e;
+    padding: 10px;
+}
+
+button {
+    background: 0;
+    border: none;
+    width: 4vw;
+    height: 6vh;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #4f4848;
+    cursor: pointer;
+}
+
+.sinal-igual {
+    background-color: rgb(108, 164, 108);
+}
+
+.sinal-del {
+    background-color: rgb(150, 49, 49);
+    width: 10vw;
+}
+
+.sinal-operacao {
+    background-color: rgb(109, 109, 167);
+}
