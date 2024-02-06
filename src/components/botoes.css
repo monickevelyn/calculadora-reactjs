@@ -26,11 +26,11 @@ button {
 
 .sinal-igual {
     background-color: rgb(108, 164, 108);
+      width: 180px;
 }
 
 .sinal-del {
     background-color: rgb(150, 49, 49);
-    width: 180px;
 }
 
 .sinal-operacao {
