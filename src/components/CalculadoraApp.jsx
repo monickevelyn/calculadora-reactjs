@@ -75,7 +75,7 @@ export default function CalculadoraApp(){
                 <button onClick={InputValor} value={7}>7</button>
                 <button onClick={InputValor} value={8}>8</button>
                 <button onClick={InputValor} value={9}>9</button>
-                <button onClick={Calcular} className="sinal-igual" value="=">=</button>
+                <button className="sinal-del" onClick={Apagar}>del</button>
                 <button onClick={InputValor} value={4}>4</button>
                 <button onClick={InputValor} value={5}>5</button>
                 <button onClick={InputValor} value={6}>6</button>
@@ -84,7 +84,7 @@ export default function CalculadoraApp(){
                 <button onClick={InputValor} value={2}>2</button>
                 <button onClick={InputValor} value={3}>3</button>
                 <button onClick={InputValor} value=".">.</button>
-                <button className="sinal-del" onClick={Apagar}>del</button>
+                <button onClick={Calcular} className="sinal-igual" value="=">=</button>
             </section>           
         </main>        
         </>
